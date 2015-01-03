@@ -28,7 +28,7 @@ struct item_s
 struct hash_s
 {
 	struct item_s item[HASH_TABLE_LENGTH];
-	int    used;
+	int    used; // It stands for used position.
 };
 
 int push(struct hash_s *hash, struct item_s item)
